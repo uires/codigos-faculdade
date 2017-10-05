@@ -8,7 +8,7 @@ int main(void){
 	
 	// ponteiro de arquivo chamado de txtManipuler	
 	FILE *txtManipuler;
-	// abre o arquivo nomepara "write" ou seja leitura, dando o nome de teste.txt
+	// abre o arquivo nomepara "write" ou seja "escrita" , dando o nome de teste.txt
 	txtManipuler = fopen("teste.txt", "w");	
 	
 	// fprintf escreve os parametros entre strings no arquivo txt
